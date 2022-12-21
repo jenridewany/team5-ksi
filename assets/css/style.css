@@ -595,6 +595,46 @@ section {
 }
 
 /*--------------------------------------------------------------
+#Tenant
+----------------------------------------------------------------*/
+tenant {
+  padding: 60px 0;
+}
+
+.tenant-bg {
+  background-color: #f3f8fa;
+}
+
+.tenant-title {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.tenant-title h2 {
+  font-size: 28px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.tenant-title h2::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 120px;
+  height: 1px;
+  background: #ddd;
+  bottom: 1px;
+  left: calc(50% - 60px);
+}
+
+
+
+.tenant-title p {
+  margin-bottom: 0;
+}
+/*--------------------------------------------------------------
 # Breadcrumbs
 --------------------------------------------------------------*/
 .breadcrumbs {
